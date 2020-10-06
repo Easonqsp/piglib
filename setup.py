@@ -24,7 +24,9 @@ setup(name = "piglib",
     #'runner' is in the root.
     scripts = ["test.py"],
     #long_description = """Really long text here.""" 
-    #
+    install_requires=[
+	'numpy',
+    ]
     #This next part it for the Cheese Shop, look a little down the page.
     #classifiers = []     
 ) 
