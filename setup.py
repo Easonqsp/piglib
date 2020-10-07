@@ -26,6 +26,8 @@ setup(name = "piglib",
     #long_description = """Really long text here.""" 
     install_requires=[
 	'numpy',
+	'sympy',
+	'scipy',
     ]
     #This next part it for the Cheese Shop, look a little down the page.
     #classifiers = []     
